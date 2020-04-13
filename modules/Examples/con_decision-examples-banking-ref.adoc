@@ -11,7 +11,7 @@ The following is an overview of the Banking example:
 * *Name*: `banking`
 * *Main class*: `org.drools.examples.banking.BankingExamplesApp` (in `src/main/java`)
 * *Module*: `drools-examples`
-* *Type*: Java application
+* *Type*: Java rules application
 * *Rule files*: `org.drools.examples.banking.*.drl` (in `src/main/resources`)
 * *Objective*: Demonstrates pattern matching, basic sorting, and calculation
 
