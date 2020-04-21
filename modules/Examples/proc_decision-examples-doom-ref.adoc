@@ -12,6 +12,8 @@ The following is an overview of the House of Doom example:
 * *Rule file*: `org.drools.examples.backwardchaining.BC-Example.drl` (in `src/main/resources`)
 * *Objective*: Demonstrates backward chaining and recursion
 
+{summary}
+
 A backward-chaining rule system is a goal-driven system that starts with a conclusion that the decision engine attempts to satisfy, often using recursion. If the system cannot reach the conclusion or goal, it searches for subgoals, which are conclusions that complete part of the current goal. The system continues this process until either the initial conclusion is satisfied or all subgoals are satisfied.
 
 In contrast, a forward-chaining rule system is a data-driven system that starts with a fact in the working memory of the decision engine and reacts to changes to that fact. When objects are inserted into working memory, any rule conditions that become true as a result of the change are scheduled for execution by the agenda.
